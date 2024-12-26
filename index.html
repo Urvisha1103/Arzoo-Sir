@@ -8,5 +8,18 @@
         console.log(b)
         console.log(c)
         console.log(`a+b = ${a + b}`)
+        console.log('a+b = ',(a + b), 'ok')
+        console.log('a+b = ' + (a + b) + 'ok')
+        var arr = [4,5,8,7]
+        function addition(arr) {
+            var sum = 0;
+            arr.forEach(element => {
+               sum += element; 
+            });
+            return sum;
+        }
+        console.log(addition(arr))
     </script>
 </body>
+
+<!-- create an function to findout addition of all elements of given array -->
